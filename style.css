@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#cpu-hand, #player-hand {
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    gap: 10px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#cpu-hand {
+    background-color: green;
+    width: 100%;
+}
+
+#play-area {
+    background-color: coral;
+    width: 100%;
+    height: 10rem;
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+#player-hand {
+    background-color: blueviolet;
+    width: 100%;
+
+}
+
+.cards {
+    width: 30px;
+    height: 60px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+.cards:hover {
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
+
+#new-game-btn {
+    background-color: red;
+    color: black;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 2px solid slategray;
+    font-size: 16px;
+    
+
+}
+#new-game-btn:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+    color: white;
+}
